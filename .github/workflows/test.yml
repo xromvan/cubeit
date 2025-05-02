@@ -29,6 +29,6 @@ jobs:
               run: |
                 # Run tests using pytest with short output and disabling warnings
                 cd cubeit   # Change directory to the cubeit folder
-                python -m http.server 8000 &  
+                python -m http.server 8001 &  
                 cd ..
                 pytest -v 
