@@ -1,0 +1,8 @@
+#Ignore virtual envioment
+# Ignore the virtual environment directory  
+venv
+
+#cahes directory
+__pycache__
+pytest_cache
+# Ignore the .idea directory (for PyCharm users)
